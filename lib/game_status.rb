@@ -48,10 +48,10 @@ end
 def full(board)
 
   board.each do |token|
-    if board.all? do |token|
-      return true
-    else
+    if 
       return false
+    else
+      return true
     end
   end
 end
