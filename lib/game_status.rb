@@ -48,7 +48,7 @@ end
 def full(board)
 
   board.each do |token|
-    if board.all? do |filled|
+    if board.all? do |token|
       return true
     else
       return false
