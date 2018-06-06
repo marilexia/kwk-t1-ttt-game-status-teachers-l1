@@ -46,8 +46,8 @@ def won?(board)
 end
 
 def full(board)
-  full_board = true
-  board.each do |filled|
+
+  board.each do |token|
     if board.all? do |filled|
       return true
     else
