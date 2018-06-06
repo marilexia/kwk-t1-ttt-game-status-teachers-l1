@@ -19,6 +19,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |combinations|
+    winning_combo = []
     if
 
   # win_combination is a 3 element array of indexes that compose a win, [0,1,2]
