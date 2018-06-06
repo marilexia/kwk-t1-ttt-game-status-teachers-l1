@@ -45,15 +45,15 @@ def won?(board)
         return false
 end
 
-# def full(board)
-#   full_board = true
-#   board.each do |filled|
-#     if board.all? do |filled|
-#       return true
-#     else
-#       return false
-#     end
-#   end
-# end
-#
-# end
+def full(board)
+  full_board = true
+  board.each do |filled|
+    if board.all? do |filled|
+      return true
+    else
+      return false
+    end
+  end
+end
+
+end
