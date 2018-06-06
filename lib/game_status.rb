@@ -53,6 +53,7 @@ def full?(board)
     if token != " " or ""
       return false
     end
+  end
       return true
   end
 
