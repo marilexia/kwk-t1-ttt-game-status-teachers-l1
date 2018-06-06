@@ -16,3 +16,5 @@ WIN_COMBINATIONS = [
   [0, 4, 8], #left to right diagonal
   [2, 4, 6] #right to left diagonal
 ]
+
+def 
