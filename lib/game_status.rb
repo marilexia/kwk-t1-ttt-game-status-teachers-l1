@@ -45,10 +45,12 @@ def won?(board)
         return false
 end
 
+####################
+
 def full?(board)
 
   board.each do |token|
-    if board.full?
+    if token != " "
       return false
     else
       return true
