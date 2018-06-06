@@ -52,6 +52,7 @@ def full?(board)
   board.each do |token|
     if token != " " or ""
       return false
+      break
     end
   end
       return true
