@@ -55,7 +55,7 @@ def full?(board)
     end
   end
       return true
-  end
+
 
 end
 
