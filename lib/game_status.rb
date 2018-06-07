@@ -93,7 +93,8 @@ def winner(board)
 
   if won?(board)
     winning_token = won?(board)
-    return
+    winner = winning_token
+    return winner
   else
     return nil
   end
