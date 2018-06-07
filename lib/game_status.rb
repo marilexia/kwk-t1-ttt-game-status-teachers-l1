@@ -3,6 +3,8 @@ def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
 
+####################
+
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [
   [0, 1, 2], #top row
@@ -16,6 +18,8 @@ WIN_COMBINATIONS = [
   [0, 4, 8], #left to right diagonal
   [2, 4, 6] #right to left diagonal
 ]
+
+####################
 
 def won?(board)
 
@@ -68,5 +72,5 @@ def draw?(board)
   else full?(board)
     return true
   end
-  
+
 end
