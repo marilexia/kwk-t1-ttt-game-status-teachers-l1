@@ -91,7 +91,7 @@ end
 
 def winner(board)
 
-  if won?(board)
-    return 
+  if won?(board) && full?(board)
+    return
 
 end
